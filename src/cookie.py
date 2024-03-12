@@ -44,4 +44,7 @@ class RobloxCookie(Bypass):
         return self._x_token
     
     async def region_unlock(self, session, proxy):
-        self.cookie = await super().run(self.cookie, session, proxy)
+        try:
+            self.cookie = await super().run(self.cookie, session, proxy)
+        except:
+            pass
