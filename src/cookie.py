@@ -46,5 +46,8 @@ class RobloxCookie(Bypass):
     async def region_unlock(self, session, proxy):
         try:
             self.cookie = await super().run(self.cookie, session, proxy)
+            print("refreshed cookie")
+            return self.cookie
         except:
-            pass
+            print("failed to refresh")
+            self.cookie = None
