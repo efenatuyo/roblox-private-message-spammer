@@ -1,8 +1,9 @@
 {
+    "user_ids": [5632520607],
+    "cookies": ["_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_"],
+    "unregion_lock_cookies": true,
     "message": {
-        "subject": "Hey there",
-        "body": "Seen you recently on roblox!"
-    },
-    "cookies": [],
-    "receivers": [3254298971]
+        "subject": "e",
+        "body": "e"
+    }
 }
